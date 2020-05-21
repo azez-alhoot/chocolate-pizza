@@ -22,12 +22,21 @@
     margin-right:5px;
 }
 
-hr{
-    border-style: dotted;
+.one{
+    border: dotted grey;
     transform: skew(45deg);
-    margin-top: 70px;
-    width: 100px;
-
+    
+    
+    margin-top: 50px;
+    width: 59%;
+}
+.two{
+    border: dotted grey;
+    transform: skew(45deg);
+    margin-top: -8px;
+    /* margin-left: 50; */
+      
+    width: 59%;
 }
 .info{
     
@@ -62,6 +71,18 @@ form{
     width: 901px;
     height: 187px;
     background-image: url(../image/list-bg.png);
-    margin: 77px 0px 25px 310px;
+    margin: 45px 0px 25px 310px;
 }
 
+.ppp{
+    margin: 7% 0 0 20%;
+    width: 59%;
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 20px;
+}
+.three{
+    margin-top: 10% 10%;
+
+    width: 50%;
+}
