@@ -1,0 +1,53 @@
+#logo {
+    float: left;
+    /* margin-left: 15px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    margin-right: 5px; */
+    margin: 15px 5px 0px 15px;;
+}
+.logoName{
+    position: relative;
+    margin: 15px 5px 0px 15px;
+    padding-top: 5px;
+}
+.social{
+    float: right;
+    margin-right: 5px;
+    /* padding-left: 5px;
+    padding-right: 5px; */
+}
+.social img{
+    float: left;
+    margin-left: 1px;
+    /* padding-right: 2px; */
+}
+#pint {
+    margin-right:5px;
+}
+
+hr{
+    border-style: dotted;
+    transform: skew(45deg);
+    margin-top: 70px;
+
+}
+.info{
+ background-size: cover ;
+}
+.info h1,p{
+    margin: 0 0 10px 15px;
+}
+
+#print {
+    float: right;
+}
+
+#infoHead{
+    float: left;
+    margin: 10px 5px 5px 5px;
+}
+#pizza{
+    width: 100%;   
+    margin-top: 50px;
+}
