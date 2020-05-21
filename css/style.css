@@ -1,11 +1,21 @@
+
+
 #logo {
     float: left;
-    margin: 10px 5px 0px 303px;
+    margin: 10px 5px 0px 309px;
 }
 .logoName{
     position: relative;
     margin: 15px 5px 0px 15px;
     padding: 15px 5px 0px 15px;
+}
+.logoName h3{
+    font-family: 'Lobster', cursive;
+    font-size: 22px;
+}
+.logoName p{
+    font-size: 10px;
+    color: rgb(218, 209, 209);
 }
 .social{
     float: right;
@@ -21,9 +31,6 @@
 #pint{
     margin-right:5px;
 }
-#print {
-    margin-right:5px;
-}
 
 hr{
     border-style: dotted;
@@ -32,22 +39,31 @@ hr{
     width: 100px;
 
 }
-.info{
-    
-}
-/* .info h1,p{
-    margin: 0 0 10px 15px;
-} */
 #infoHead{
     float: left;
     margin: 10px 0px 10px 308px;
 }
-
+#infoHead h1{
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 22px;
+}
+#infoHead p{
+    font-size: 10px;
+    color: rgb(218, 209, 209);
+}
 #print {
     float: right;
-    margin: 10px 310px 15px 0px;
+    margin: 23px 310px 15px 0px;
 }
-
+#print img{
+    float: left;
+    margin: 0px 2px 0px 0px;
+}
+#print p{
+    float: right;
+    font-size: 10px;
+    color: rgb(218, 209, 209);
+}
 #pizza{   
     margin: 0 auto;
     top: 0;
@@ -77,12 +93,12 @@ form{
 }
 
 #vanessainfo{
-    position: relative;
-    padding: 20px 0px 0px 251px;
+    float: left;
+    padding: 28px 0px 0px 5px
 }
 #submit{
     float: right;
-    margin: 0px 310px 6px 30px;
+    margin: 25px 310px 6px 30px;
     padding-top: 10px;
     background-color: rgb(243, 50, 50);
     height: 50px;
