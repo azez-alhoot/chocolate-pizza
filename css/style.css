@@ -1,19 +1,15 @@
 #logo {
     float: left;
-    /* margin-left: 15px;
-    margin-top: 0;
-    margin-bottom: 0px;
-    margin-right: 5px; */
-    margin: 15px 5px 0px 15px;;
+    margin: 10px 5px 0px 288px;
 }
 .logoName{
     position: relative;
     margin: 15px 5px 0px 15px;
-    padding-top: 5px;
+    padding: 15px 5px 0px 15px;
 }
 .social{
     float: right;
-    margin-right: 5px;
+    margin: 0px 330px 0px 10px;
     /* padding-left: 5px;
     padding-right: 5px; */
 }
@@ -22,7 +18,7 @@
     margin-left: 1px;
     /* padding-right: 2px; */
 }
-#pint {
+#print {
     margin-right:5px;
 }
 
@@ -30,24 +26,42 @@ hr{
     border-style: dotted;
     transform: skew(45deg);
     margin-top: 70px;
+    width: 100px;
 
 }
 .info{
- background-size: cover ;
+    
 }
-.info h1,p{
+/* .info h1,p{
     margin: 0 0 10px 15px;
+} */
+#infoHead{
+    float: left;
+    margin: 10px 0px 10px 308px;
 }
 
 #print {
     float: right;
+    margin: 10px 310px 15px 0px;
 }
 
-#infoHead{
-    float: left;
-    margin: 10px 5px 5px 5px;
+#pizza{   
+    margin: 0 auto;
+    top: 0;
+    width: 901px;
+    height: 603px;
 }
-#pizza{
-    width: 100%;   
-    margin-top: 50px;
+
+form{
+    display: inline-block;
+    margin: 36px 152px 10px 51px;
+    ;
+    /* padding: 10px 10px 10px 10px; */
 }
+#formVue{
+    width: 901px;
+    height: 187px;
+    background-image: url(../image/list-bg.png);
+    margin: 77px 0px 25px 310px;
+}
+
