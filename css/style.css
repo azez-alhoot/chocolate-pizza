@@ -1,6 +1,6 @@
 #logo {
     float: left;
-    margin: 10px 5px 0px 288px;
+    margin: 10px 5px 0px 303px;
 }
 .logoName{
     position: relative;
@@ -9,7 +9,7 @@
 }
 .social{
     float: right;
-    margin: 0px 330px 0px 10px;
+    margin: 0px 307px 0px 10px;
     /* padding-left: 5px;
     padding-right: 5px; */
 }
@@ -17,6 +17,9 @@
     float: left;
     margin-left: 1px;
     /* padding-right: 2px; */
+}
+#pint{
+    margin-right:5px;
 }
 #print {
     margin-right:5px;
@@ -65,3 +68,24 @@ form{
     margin: 77px 0px 25px 310px;
 }
 
+#vanessa{
+    display: inline;
+}
+#vanessaphoto{
+    float: left;
+    margin: 10px 5px 5px 293px;
+}
+
+#vanessainfo{
+    position: relative;
+    padding: 20px 0px 0px 251px;
+}
+#submit{
+    float: right;
+    margin: 0px 310px 6px 30px;
+    padding-top: 10px;
+    background-color: rgb(243, 50, 50);
+    height: 50px;
+    border: none;
+    color: #f5f5f5;
+}
