@@ -25,12 +25,21 @@
     margin-right:5px;
 }
 
-hr{
-    border-style: dotted;
+.one{
+    border: dotted #ede9e8;
     transform: skew(45deg);
-    margin-top: 70px;
-    width: 100px;
-
+    
+    
+    margin-top: 50px;
+    width: 59%;
+}
+.two{
+    border: dotted #ede9e8;
+    transform: skew(45deg);
+    margin-top: -8px;
+    /* margin-left: 50; */
+      
+    width: 59%;
 }
 .info{
     
@@ -65,9 +74,32 @@ form{
     width: 901px;
     height: 187px;
     background-image: url(../image/list-bg.png);
-    margin: 77px 0px 25px 310px;
+    margin: 45px 0px 25px 310px;
 }
 
+.ppp{
+    margin: 7% 0 0 21%;
+    width: 58%;
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 23px;
+    font-size: 19px;
+}
+.ppp p{
+    margin-top: 3%;
+}
+.ppp p:nth-child(2){
+    font-size: 19px;
+}
+.ppp p:nth-child(3){
+    font-size: 19px;
+}
+.three{
+    width: 29%;
+    /* margin: 8% 8%; */
+    margin-top: 7%;
+    float: left;
+    margin-left: 21%;}
 #vanessa{
     display: inline;
 }
@@ -80,6 +112,14 @@ form{
     position: relative;
     padding: 20px 0px 0px 251px;
 }
+#vanessainfo h3{
+    font-weight: bold;
+    font-size: 25px;
+}
+#vanessainfo p{
+    font-size: 20px;
+    width: 58%;
+}
 #submit{
     float: right;
     margin: 0px 310px 6px 30px;
@@ -88,4 +128,30 @@ form{
     height: 50px;
     border: none;
     color: #f5f5f5;
+}
+footer img{
+    margin-top: 6%;
+    margin-left: 0%;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.four{
+    margin-top: 7%;
+    width: 27%;
+    margin-left: 53%;
+    position: absolute;
+}
+footer p:first-of-type{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 43%;
+}
+footer p:last-child{
+    position: absolute;
+    margin-top: 11%;
+    margin-left: 44%;
+}
+footer p{
+    color: #b0aaa9;
 }
